@@ -1,0 +1,20 @@
+a:link{
+    color: green;
+    background-color: transparent brown;
+    text-decoration:none;
+}
+
+a:visited{
+    color: red;
+}
+
+a:hover{background-color: olive;
+padding: 15px 25px;
+display: inline-block;
+border-radius: 15px;
+color: black;
+
+}
+a:active{
+    color: brown;
+}
