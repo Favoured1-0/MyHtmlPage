@@ -18,3 +18,10 @@ color: black;
 a:active{
     color: brown;
 }
+button:hover{
+padding: 15px 25px;
+display: inline-block;
+border-radius: 15px;
+color: black;
+
+}
