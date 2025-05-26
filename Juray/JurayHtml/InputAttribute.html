@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label for="mname">username</label><br>
+        <input type="text" id="mname" name="name" value="john" readonly><br>
+        <label for="lname">last name</label>
+        <input type="text" id="lname" name="lastname" value="doe" disabled>
+    </form>
+    <form>
+        <label for="pin">PIN</label>
+        <input type="text" id="pin" name="password" size="100">
+    </form>
+    <form>
+        <label for="pin">PIN</label><br>
+        <input type="text" id="pin" name="password" maxlength="4" size="4">
+    </form>
+    <form action="index.html" id="form1">
+        <label for="fname">first name</label>
+        <input type="text" id="fname" name="firstName"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <label for="lname">lastname</label>
+    <input type="text" id="lname" name="lastname" form="form1">
+    <form action="index.html">
+        <label for="username">firstName</label>
+        <input type="text" id="username" name="fname">
+        <br>
+        <label for="lname"></label>
+        <input type="text" id="lname" name="lastName">
+        <br>
+        <input type="submit" value="submit">
+        <input type="submit" formaction="/layouts.html" value="submit as Admin">         
+    </form>
+    <form action="css.html" method="post">
+        <label for="vname">vehicle brand name</label><br>
+        <input type="text" id="vname" name="vehicle"><br>
+        <label for="upfile">upload file</label><br>
+        <input type="file" name="file" id="upfile">
+        <br>
+        <input type="submit" value="submit">
+        <input type="submit" formenctype="multipart/form-data" value="submit as multipart/form-data">
+    </form>
+    <form action="layouts.html" method="get">
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname"><br><br>
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname"><br><br>
+            <input type="submit" value="submit">
+            <input type="submit" formmethod="post" value="submit using POST">
+    </form>
+    <form>
+        <label></label>
+    </form>
+    <form>
+        <label></label>
+    </form>
+</body>
+</html>
