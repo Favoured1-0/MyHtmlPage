@@ -1,0 +1,30 @@
+.dotted{
+    text-align-last:center;
+    border:2px solid black;
+}
+.double{
+    vertical-align: baseline;
+    border:2px solid black;
+}
+.inset{
+    vertical-align: text-top;
+    border: 2px solid red;
+}
+.outset{
+    vertical-align: super;
+    outline:2px dashed blue;
+}
+.groove{
+    text-decoration-line:overline;
+    border: 3px solid firebrick;
+}
+.ridge{
+    text-decoration-line:line-through;
+}
+.none{
+    text-decoration-line: underline;
+}
+.gem{
+    text-decoration-line:underline overline;
+}
+.nix{text-decoration: underline red double 5px;}

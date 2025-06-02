@@ -1,0 +1,22 @@
+.dotted{
+    border-style: dotted;
+
+}
+.dashed{
+    border-style: dashed;
+}
+
+.solid{border-style:solid;}
+
+.double{
+    border-style:double;
+}
+.groove{
+    border-style: groove;
+}
+
+.ridge{border-style: ridge;}
+.inset{ border-style: inset;}
+.outset{border-style:outset}
+.mix{border-style:dotted dashed solid double;}
+.dem{border-bottom:4px solid red;}

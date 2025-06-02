@@ -1,0 +1,14 @@
+.double{
+    padding:100px;
+    border:3px outset green;
+}
+
+.none{
+    padding:0 0 70px 0;
+    border:3px dashed black;
+}
+
+.outset{
+    padding:25px 70px 70px;
+    border:2px solid red;
+}

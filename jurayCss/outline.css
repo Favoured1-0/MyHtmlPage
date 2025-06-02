@@ -1,0 +1,8 @@
+.dotted{outline-style: 6px outset;}
+
+.onset{
+    border:2px solid red;
+    outline-style:solid;
+    outline-color:green;
+    outline-width:thick;
+}
